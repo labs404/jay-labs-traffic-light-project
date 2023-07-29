@@ -1,0 +1,47 @@
+.traffic-light-stem {
+    background-color: black;
+    height: 100px;
+    width: 15px;
+    margin: auto;
+}
+
+.light-container {
+    background-color: #000000;
+    border-radius: 25px;
+    height:340px;
+    width:120px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 1px 0px 0px 0px;
+}
+
+.light-container div {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 9px 10px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.red-light {
+    background-color: darkred;
+    color: darkred;
+}
+
+.yellow-light {
+    background-color: goldenrod;
+    color: goldenrod;
+}
+
+.green-light {
+    background: darkgreen;
+    color: darkgreen;
+}
+
+.selected-light {
+    box-shadow: 0px 0px 50px 20px rgba(255, 255, 255, .5);
+}
